@@ -1,4 +1,4 @@
-п»їusing System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,9 +11,9 @@ namespace ConsoleApplication3
         static void Main(string[] args)
         {
             int i,n,m;
-            Console.WriteLine("Р’РІРµРґРёС‚Рµ РєРѕР»РёС‡РµСЃС‚РІРѕ СЌР»РµРјРµРЅС‚РѕРІ РІ РјР°СЃСЃРёРІРµ");
+            Console.WriteLine("Введите количество элементов в массиве");
             Int32 M = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Р’РІРµРґРёС‚Рµ РјР°СЃСЃРёРІ");
+            Console.WriteLine("Введите массив");
             Single[] array = new Single[M];
             Single[] Newarray = new Single[M];
 
@@ -58,7 +58,7 @@ namespace ConsoleApplication3
                 X = min;
             }
 
-            Console.WriteLine("РћР±РЅРѕРІР»РµРЅРЅС‹Р№ РјР°СЃСЃРёРІ: ");
+            Console.WriteLine("Обновленный массив: ");
 
             
             for ( i = 0; i < M; i++)
